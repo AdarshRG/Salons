@@ -1,0 +1,414 @@
+{
+  "salons": [
+    {
+      "id": 1,
+      "name": "Lakme Salon",
+      "neighborhood": "Manhattan",
+      "photograph": "https://i.postimg.cc/jqhyhXcZ/lakme.png",
+      "address": "171 E Broadway, New York, NY 10002",
+      "latlng": {
+        "lat": 40.713829,
+        "lng": -73.989667
+      },
+      "type": "Styling",
+      "operating_hours": {
+        "Monday": "5:30 pm - 11:00 pm",
+        "Tuesday": "5:30 pm - 12:00 am",
+        "Wednesday": "5:30 pm - 12:00 am",
+        "Thursday": "5:30 pm - 12:00 am",
+        "Friday": "5:30 pm - 12:00 am",
+        "Saturday": "12:00 pm - 4:00 pm, 5:30 pm - 12:00 am",
+        "Sunday": "12:00 pm - 4:00 pm, 5:30 pm - 11:00 pm"
+      },
+      "reviews": [
+        {
+          "name": "Adarsh",
+          "date": "October 26, 2016",
+          "rating": 4.5,
+          "comments": "Good place for Hairstyling"
+        },
+        {
+          "name": "Vivek",
+          "date": "October 26, 2016",
+          "rating": 3.5,
+          "comments": "This place is a blast."
+        },
+        {
+          "name": "Jason",
+          "date": "October 26, 2016",
+          "rating": 5,
+          "comments": "I was VERY excited to come here after seeing and hearing so many good things about this place."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Jawed Habibs Hair & Beauty Salon",
+      "neighborhood": "Brooklyn",
+      "photograph": "https://i.postimg.cc/pTz4S7r9/jawed.jpg",
+      "address": "919 Fulton St, Brooklyn, NY 11238",
+      "latlng": {
+        "lat": 40.683555,
+        "lng": -73.966393
+      },
+      "type": "Hair & Beauty",
+      "operating_hours": {
+        "Monday": "5:30 pm - 11:00 pm",
+        "Tuesday": "5:30 pm - 11:00 pm",
+        "Wednesday": "5:30 pm - 11:00 pm",
+        "Thursday": "5:30 pm - 11:00 pm",
+        "Friday": "5:30 pm - 11:00 pm",
+        "Saturday": "5:00 pm - 11:30 pm",
+        "Sunday": "12:00 pm - 3:00 pm, 5:00 pm - 11:00 pm"
+      },
+      "reviews": [
+        {
+          "name": "Gopal",
+          "date": "October 26, 2016",
+          "rating": 4,
+          "comments": "Five star food, two star atmosphere. I would definitely get takeout from this place."
+        },
+        {
+          "name": "Abhishek",
+          "date": "October 26, 2016",
+          "rating": 4.5,
+          "comments": "Nice place to visit."
+        },
+        {
+          "name": "Sam",
+          "date": "October 26, 2016",
+          "rating": 3.5,
+          "comments": "5 star atmosphere as it is very cozy with great staff."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Shahnaz Husain Salon",
+      "neighborhood": "Manhattan",
+      "photograph": "https://i.postimg.cc/cLzzLZ8g/shah.jpg",
+      "address": "1 E 32nd St, New York, NY 10016",
+      "latlng": {
+        "lat": 40.747143,
+        "lng": -73.985414
+      },
+      "type": "Cosmetics",
+      "operating_hours": {
+        "Monday": "11:30 am - 2:00 am",
+        "Tuesday": "11:30 am - 2:00 am",
+        "Wednesday": "11:30 am - 2:00 am",
+        "Thursday": "11:30 am - 2:00 am",
+        "Friday": "11:30 am - 6:00 am",
+        "Saturday": "11:30 am - 6:00 am",
+        "Sunday": "11:30 am - 2:00 am"
+      },
+      "reviews": [
+        {
+          "name": "Steve",
+          "date": "October 26, 2016",
+          "rating": 4.5,
+          "comments": "Very friendly staff"
+        },
+        {
+          "name": "Firoz",
+          "date": "October 26, 2016",
+          "rating": 5,
+          "comments": "I've been to Korea before and many other Koreanplaces and it si the best"
+        },
+        {
+          "name": "Emily",
+          "date": "October 26, 2016",
+          "rating": 2.5,
+          "comments": "Not good as per the hipe"
+        }
+      ]
+    },
+    {
+      "id": "VLCC Salon",
+      "name": "Katz's Delicatessen",
+      "neighborhood": "Manhattan",
+      "photograph": "https://i.postimg.cc/SNsV234W/vlc.jpg",
+      "address": "205 E Houston St, New York, NY 10002",
+      "latlng": {
+        "lat": 40.722216,
+        "lng": -73.987501
+      },
+      "ype": "Russian cut",
+      "operating_hours": {
+        "Monday": "8:00 am - 10:30 pm",
+        "Tuesday": "8:00 am - 10:30 pm",
+        "Wednesday": "8:00 am - 10:30 pm",
+        "Thursday": "8:00 am - 2:30 am",
+        "Friday": "8:00 am - Sat",
+        "Saturday": "Open 24 hours",
+        "Sunday": "Sat - 10:30 pm"
+      },
+      "reviews": [
+        {
+          "name": "Steve",
+          "date": "October 26, 2016",
+          "rating": 5,
+          "comments": "Nice food"
+        },
+        {
+          "name": "Allen",
+          "date": "October 26, 2016",
+          "rating": 5,
+          "comments": "Extraordinary"
+        },
+        {
+          "name": "David",
+          "date": "October 26, 2016",
+          "rating": 2.5,
+          "comments": "Best choice"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Naturals Salon",
+      "neighborhood": "Brooklyn",
+      "photograph": "https://i.postimg.cc/BvxCfG5G/nat.jpg",
+      "address": "261 Moore St, Brooklyn, NY 11206",
+      "latlng": {
+        "lat": 40.705089,
+        "lng": -73.933585
+      },
+      "type": "Roberta's Styling",
+      "operating_hours": {
+        "Monday": "11:00 am - 12:00 am",
+        "Tuesday": "11:00 am - 12:00 am",
+        "Wednesday": "11:00 am - 12:00 am",
+        "Thursday": "11:00 am - 12:00 am",
+        "Friday": "11:00 am - 12:00 am",
+        "Saturday": "10:00 am - 12:00 am",
+        "Sunday": "10:00 am - 12:00 am"
+      },
+      "reviews": [
+        {
+          "name": "Steve",
+          "date": "October 26, 2016",
+          "rating": 4,
+          "comments": "Roberta's is the epicenter of the modern Brooklyn scene."
+        },
+        {
+          "name": "Raymond",
+          "date": "October 26, 2016",
+          "rating": 4,
+          "comments": "Best place"
+        },
+        {
+          "name": "Laurel",
+          "date": "October 26, 2016",
+          "rating": 4,
+          "comments": "Just loved it"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "BBlunt Salon",
+      "neighborhood": "Brooklyn",
+      "photograph": "https://i.postimg.cc/vHf7Vsjx/BBLUNT-Logo.jpg",
+      "address": "454 Van Brunt St, Brooklyn, NY 11231",
+      "latlng": {
+        "lat": 40.674925,
+        "lng": -74.016162
+      },
+      "type": "Brooklyn cut",
+      "operating_hours": {
+        "Monday": "Closed",
+        "Tuesday": "12:00 pm - 10:00 pm",
+        "Wednesday": "12:00 pm - 10:00 pm",
+        "Thursday": "12:00 pm - 10:00 pm",
+        "Friday": "12:00 pm - 11:00 pm",
+        "Saturday": "12:00 pm - 11:00 pm",
+        "Sunday": "12:00 pm - 9:00 pm"
+      },
+      "reviews": [
+        {
+          "name": "Ajay",
+          "date": "October 26, 2016",
+          "rating": 3.5,
+          "comments": "Just average"
+        },
+        {
+          "name": "Michelle",
+          "date": "October 26, 2016",
+          "rating": 4.5,
+          "comments": "Overall, a great try of New York"
+        },
+        {
+          "name": "Ai-Mei",
+          "date": "October 26, 2016",
+          "rating": 4,
+          "comments": "It was nice"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Loreal Salon",
+      "neighborhood": "Manhattan",
+      "photograph": "https://i.postimg.cc/3xQBSRpZ/lore.png",
+      "address": "430 E 9th St, New York, NY 10009",
+      "latlng": {
+        "lat": 40.727397,
+        "lng": -73.983645
+      },
+      "type": "American Style",
+      "operating_hours": {
+        "Monday": "11:30 am - 10:00 pm",
+        "Tuesday": "Closed",
+        "Wednesday": "11:30 am - 10:00 pm",
+        "Thursday": "11:30 am - 10:00 pm",
+        "Friday": "11:30 am - 10:00 pm",
+        "Saturday": "11:30 am - 10:00 pm",
+        "Sunday": "11:30 am - 10:00 pm"
+      },
+      "reviews": [
+        {
+          "name": "Steve",
+          "date": "October 26, 2016",
+          "rating": 4.5,
+          "comments": "The best"
+        },
+        {
+          "name": "Gabriel",
+          "date": "October 26, 2016",
+          "rating": 5,
+          "comments": "I was turned on to this place following the glowing NYT review. "
+        },
+        {
+          "name": "Shivi",
+          "date": "October 26, 2016",
+          "rating": 3.5,
+          "comments": "Great cut and very satisfying."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Affinity Salon",
+      "neighborhood": "Manhattan",
+      "photograph": "https://i.postimg.cc/X7bLxq9k/affi.jpg",
+      "address": "131 Sullivan St, New York, NY 10012",
+      "latlng": {
+        "lat": 40.726584,
+        "lng": -74.002082
+      },
+      "type": "Cosmetic",
+      "operating_hours": {
+        "Monday": "11:30 am - 3:00 pm, 5:30 pm - 11:00 pm",
+        "Tuesday": "11:30 am - 3:00 pm, 5:30 pm - 11:00 pm",
+        "Wednesday": "11:30 am - 3:00 pm, 5:30 pm - 11:00 pm",
+        "Thursday": "11:30 am - 3:00 pm, 5:30 pm - 11:00 pm",
+        "Friday": "11:30 am - 3:00 pm, 5:30 pm - 11:30 pm",
+        "Saturday": "10:00 am - 3:00 pm, 5:30 pm - 11:30 pm",
+        "Sunday": "10:00 am - 3:00 pm, 5:30 pm - 11:00 pm"
+      },
+      "reviews": [
+        {
+          "name": "Amal",
+          "date": "October 26, 2016",
+          "rating": 4,
+          "comments": "Over good"
+        },
+        {
+          "name": "Sayooj",
+          "date": "October 26, 2016",
+          "rating": 3.5,
+          "comments": "I randomly came here on a Saturday night. I was pleasantly surprised with the service."
+        },
+        {
+          "name": "Lori",
+          "date": "October 26, 2016",
+          "rating": 4,
+          "comments": "Satisfactory"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Green Trends Salon",
+      "neighborhood": "Queens",
+      "photograph": "https://i.postimg.cc/fWxj3s1t/green.png",
+      "address": "1209 Jackson Ave, Queens, NY 11101",
+      "latlng": {
+        "lat": 40.743797,
+        "lng": -73.950652
+      },
+      "type": "Asian",
+      "operating_hours": {
+        "Monday": "5:00 pm - 10:00 pm",
+        "Tuesday": "5:00 pm - 10:00 pm",
+        "Wednesday": "5:00 pm - 10:00 pm",
+        "Thursday": "5:00 pm - 10:00 pm",
+        "Friday": "5:00 pm - 11:00 pm",
+        "Saturday": "5:00 pm - 11:00 pm",
+        "Sunday": "5:00 pm - 10:00 pm"
+      },
+      "reviews": [
+        {
+          "name": "Steve",
+          "date": "October 26, 2016",
+          "rating": 4,
+          "comments": "Joshua Smookler two-year-old ramen shop serves one of the best tonkotsu broths around."
+        },
+        {
+          "name": "Brittany",
+          "date": "October 26, 2016",
+          "rating": 4.5,
+          "comments": "Overall, I would definitely recommend this place if you enjoy "
+        },
+        {
+          "name": "Sally",
+          "date": "October 26, 2016",
+          "rating": 4,
+          "comments": "One of most unique ramen places "
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Strands Salon",
+      "neighborhood": "Queens",
+      "photograph": "https://i.postimg.cc/v8LfYz65/strand.jpg",
+      "address": "5-48 49th Ave, Queens, NY 11101",
+      "latlng": {
+        "lat": 40.743394,
+        "lng": -73.954235
+      },
+      "type": "Mexican style",
+      "operating_hours": {
+        "Monday": "5:00 pm - 12:00 am",
+        "Tuesday": "5:00 pm - 12:00 am",
+        "Wednesday": "5:00 pm - 12:00 am",
+        "Thursday": "5:00 pm - 12:00 am",
+        "Friday": "5:00 pm - 12:00 am",
+        "Saturday": "11:00 am - 12:00 am",
+        "Sunday": "11:00 am - 12:00 am"
+      },
+      "reviews": [
+        {
+          "name": "Steve",
+          "date": "October 26, 2016",
+          "rating": 5,
+          "comments": "Head to this laid-back Long Island City salon"
+        },
+        {
+          "name": "Rob",
+          "date": "October 26, 2016",
+          "rating": 5,
+          "comments": "The hype was real. "
+        },
+        {
+          "name": "Jason",
+          "date": "October 26, 2016",
+          "rating": 4,
+          "comments": "The style was good"
+        }
+      ]
+    }
+  ]
+}
