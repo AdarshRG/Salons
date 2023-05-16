@@ -6,6 +6,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import "./Salons.css";
 import { Link } from "react-router-dom";
+import { Carousel } from 'react-bootstrap';
 
 function Salons() {
   const [restList, setRest] = useState([]);
@@ -23,8 +24,32 @@ function Salons() {
   }, []);
 
   return (
-    <Row className="ms-5 mb-2 p-2">
-      <h1 className='text-warning' ><strong>Salons List</strong></h1>
+    <Row className="ms-2 me-2 mb-2 p-2">
+      <Carousel>
+      <Carousel.Item>
+        <img
+          className="d-block w-100" style={{height:"500px" }}
+          src="./sal4.jpg"
+          
+        />
+       
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"style={{height:"500px" }}
+          src="./sal2.jpeg"
+          alt="Second slide"
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"style={{height:"500px" }}
+          src="./sal3.jpeg"
+          alt="Third slide"
+        />
+      </Carousel.Item>
+    </Carousel>
+      {/* <h1 className='text-warning' ><strong>Salons List</strong></h1> */}
       {
       restList.map((sal) => (
         <Col className="p-1" lg={4} md={6}>
